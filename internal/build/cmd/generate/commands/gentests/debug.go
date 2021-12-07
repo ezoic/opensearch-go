@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opensearch-project/opensearch-go/internal/build/utils"
+	"github.com/ezoic/opensearch-go/internal/build/utils"
 )
 
 // DebugInfo returns information about the endpoint as a string.

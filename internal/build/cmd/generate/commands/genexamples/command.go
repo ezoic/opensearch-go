@@ -31,7 +31,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/opensearch-project/opensearch-go/internal/build/cmd"
 	"io"
 	"io/ioutil"
 	"os"
@@ -40,10 +39,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ezoic/opensearch-go/internal/build/cmd"
+
 	"github.com/spf13/cobra"
 	"golang.org/x/tools/imports"
 
-	"github.com/opensearch-project/opensearch-go/internal/build/utils"
+	"github.com/ezoic/opensearch-go/internal/build/utils"
 )
 
 var (

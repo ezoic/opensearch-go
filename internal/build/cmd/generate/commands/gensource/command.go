@@ -29,16 +29,17 @@ package gensource
 import (
 	"bytes"
 	"fmt"
-	"github.com/opensearch-project/opensearch-go/internal/build/cmd"
 	"io"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
+	"github.com/ezoic/opensearch-go/internal/build/cmd"
+
 	"github.com/spf13/cobra"
 
-	"github.com/opensearch-project/opensearch-go/internal/build/utils"
+	"github.com/ezoic/opensearch-go/internal/build/utils"
 )
 
 var (

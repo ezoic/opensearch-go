@@ -27,13 +27,13 @@
 package main
 
 import (
-	"github.com/opensearch-project/opensearch-go/internal/build/cmd"
+	"github.com/ezoic/opensearch-go/internal/build/cmd"
 
-	_ "github.com/opensearch-project/opensearch-go/internal/build/cmd/generate/commands/genexamples"
-	_ "github.com/opensearch-project/opensearch-go/internal/build/cmd/generate/commands/gensource"
-	_ "github.com/opensearch-project/opensearch-go/internal/build/cmd/generate/commands/genstruct"
-	_ "github.com/opensearch-project/opensearch-go/internal/build/cmd/generate/commands/gentests"
-	_ "github.com/opensearch-project/opensearch-go/internal/build/cmd/tools/commands/spec"
+	_ "github.com/ezoic/opensearch-go/internal/build/cmd/generate/commands/genexamples"
+	_ "github.com/ezoic/opensearch-go/internal/build/cmd/generate/commands/gensource"
+	_ "github.com/ezoic/opensearch-go/internal/build/cmd/generate/commands/genstruct"
+	_ "github.com/ezoic/opensearch-go/internal/build/cmd/generate/commands/gentests"
+	_ "github.com/ezoic/opensearch-go/internal/build/cmd/tools/commands/spec"
 )
 
 func main() {

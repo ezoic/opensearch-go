@@ -39,8 +39,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opensearch-project/opensearch-go/opensearchtransport"
-	"github.com/opensearch-project/opensearch-go/opensearchutil"
+	"github.com/ezoic/opensearch-go/opensearchtransport"
+	"github.com/ezoic/opensearch-go/opensearchutil"
 )
 
 var (
@@ -129,7 +129,7 @@ func TestTransportCompression(t *testing.T) {
 	u, _ := url.Parse("http://localhost:9200")
 
 	transport, _ := opensearchtransport.New(opensearchtransport.Config{
-		URLs: []*url.URL{u},
+		URLs:                []*url.URL{u},
 		CompressRequestBody: true,
 	})
 

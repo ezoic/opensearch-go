@@ -46,8 +46,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opensearch-project/opensearch-go"
-	"github.com/opensearch-project/opensearch-go/opensearchtransport"
+	"github.com/ezoic/opensearch-go"
+	"github.com/ezoic/opensearch-go/opensearchtransport"
 )
 
 var infoBody = `{
@@ -288,7 +288,7 @@ func TestBulkIndexer(t *testing.T) {
 						StatusCode: http.StatusOK,
 						Status:     "200 OK",
 						Body:       ioutil.NopCloser(strings.NewReader(infoBody)),
-						Header: http.Header{"Content-Type": []string{"application/json"}},
+						Header:     http.Header{"Content-Type": []string{"application/json"}},
 					}, nil
 				}
 
@@ -461,7 +461,7 @@ func TestBulkIndexer(t *testing.T) {
 						StatusCode: http.StatusOK,
 						Status:     "200 OK",
 						Body:       ioutil.NopCloser(strings.NewReader(infoBody)),
-						Header: http.Header{"Content-Type": []string{"application/json"}},
+						Header:     http.Header{"Content-Type": []string{"application/json"}},
 					}, nil
 				}
 
@@ -529,7 +529,7 @@ func TestBulkIndexer(t *testing.T) {
 							StatusCode: http.StatusOK,
 							Status:     "200 OK",
 							Body:       ioutil.NopCloser(strings.NewReader(infoBody)),
-							Header: http.Header{"Content-Type": []string{"application/json"}},
+							Header:     http.Header{"Content-Type": []string{"application/json"}},
 						}, nil
 					}
 

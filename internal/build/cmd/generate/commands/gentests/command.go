@@ -41,8 +41,8 @@ import (
 	"github.com/spf13/cobra"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/opensearch-project/opensearch-go/internal/build/cmd"
-	"github.com/opensearch-project/opensearch-go/internal/build/utils"
+	"github.com/ezoic/opensearch-go/internal/build/cmd"
+	"github.com/ezoic/opensearch-go/internal/build/utils"
 )
 
 var (

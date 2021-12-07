@@ -41,9 +41,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opensearch-project/opensearch-go"
-	"github.com/opensearch-project/opensearch-go/opensearchtransport"
-	"github.com/opensearch-project/opensearch-go/opensearchapi"
+	"github.com/ezoic/opensearch-go"
+	"github.com/ezoic/opensearch-go/opensearchapi"
+	"github.com/ezoic/opensearch-go/opensearchtransport"
 )
 
 func TestClientTransport(t *testing.T) {

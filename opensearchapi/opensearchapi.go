@@ -31,7 +31,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opensearch-project/opensearch-go/internal/version"
+	"github.com/ezoic/opensearch-go/internal/version"
 )
 
 // Version returns the package version as a string.

@@ -36,8 +36,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/opensearch-project/opensearch-go"
-	"github.com/opensearch-project/opensearch-go/opensearchtransport"
+	"github.com/ezoic/opensearch-go"
+	"github.com/ezoic/opensearch-go/opensearchtransport"
 )
 
 func init() {
@@ -81,7 +81,7 @@ func ExampleNewClient() {
 }
 
 func ExampleNewClient_logger() {
-	// import "github.com/opensearch-project/opensearch-go/opensearchtransport"
+	// import "github.com/ezoic/opensearch-go/opensearchtransport"
 
 	// Use one of the bundled loggers:
 	//

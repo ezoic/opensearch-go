@@ -32,7 +32,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opensearch-project/opensearch-go/internal/build/cmd/generate/commands/gensource"
+	"github.com/ezoic/opensearch-go/internal/build/cmd/generate/commands/gensource"
 )
 
 func TestGenerator(t *testing.T) {
